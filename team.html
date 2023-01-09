@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg" href="/img/favicon_1.svg" />
+    <title>The Team</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="/script/mixitup.min.js" defer></script>
+    <script src="/script/mixitupinit.js" defer></script>
+    <script src="/script/carousel.js" defer></script>
+    <script src="/script/script.js" defer></script>
+  </head>
+
+  <!-- body -->
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar">
+        <div class="container-logo">
+          <a href="index.html">
+            <video
+              id="logo-video"
+              type="video/mp4"
+              class="nav-logo"
+              src="/video/naal_comp_header_logo_1.mp4"
+            ></video
+          ></a>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="team.html" class="nav-link">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a href="events.html" class="nav-link">EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a href="guide.html" class="nav-link">GUIDE</a>
+          </li>
+          <li class="nav-item">
+            <a href="get_in_touch.html" class="nav-link">GET IN TOUCH</a>
+          </li>
+        </ul>
+        <div class="container-hamburger">
+          <a href="404.html" class="button_nav">[BOOK]</a>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main id="main">
+      <div class="background_grid_mobile">
+        <div class="grid-item-1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+      </div>
+
+      <div class="background_grid_tablet_desktop">
+        <div class="grid-item-1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+      </div>
+
+      <section class="team_section1 generelt_margin">
+        <h1 class="team_section1_h1">
+          MEET OUR TEAM AND TAKE A LOOK AT THEIR PREVIOUS WORK
+        </h1>
+        <p class="team_section1_tekst">
+          Below you will see an overview of our tattoo artists. Here you can
+          read about them and their styles and see their previous work. Choose
+          an artist and book an appointment. We look forward to seeing you and
+          hope to give you the best possible experience! xoxo
+        </p>
+        <img
+          class="team_section1_image"
+          src="/img/web_img/teams_content/teams_top_img.png"
+          alt="to kvinder som er i et lokale. Den ene ligger på en briks og den anden står op"
+        />
+      </section>
+
+      <section class="team_section2">
+        <div class="team_section2_div1">
+          <h2 class="team_section2_div1_h2">Syro_Bisse</h2>
+          <p class="team_section2_div1_tekst">
+            Sally Andresen known as Syro bisse is self-taught and inspired by
+            her surroundings growing up in Copenhagen, “ignorant” style is where
+            syro finds her place.
+          </p>
+          <!-- <a class="button team_section2_div1_cta" href="%">[SHOW WORK]</a> -->
+        </div>
+
+        <div class="team_section2_div2">
+          <h2 class="team_section2_div2_h2">Grill_Tattoo</h2>
+          <p class="team_section2_div2_tekst">
+            Emily Weber known as Grill Tattoo is not only a very talented
+            self-taught tattoo artist but she also makes epic paintings and
+            posters with a unique style.
+          </p>
+          <!-- <a class="button team_section2_div2_cta" href="%">[SHOW WORK]</a> -->
+        </div>
+
+        <div class="team_section2_div3">
+          <h2 class="team_section2_div3_h2">It’s_Spicytattoos</h2>
+          <p class="team_section2_div3_tekst">
+            Tania Nielsson known as Spicy Tattoo is a self-taught tattoo artist
+            who specialises in Fineline and dot-work. She appreciates the body's
+            organic shapes and enjoys creating freehand that highlights each
+            client's beautiful body.
+          </p>
+          <!-- <a class="button team_section2_div3_cta" href="%">[SHOW WORK]</a> -->
+        </div>
+      </section>
+
+      <section class="team_section3">
+        <!----- knapper ----->
+        <form>
+          <fieldset>
+            <!-- <h5>sortering</h5>
+            <button type="button" data-sort="random">Random</button> -->
+
+            <button
+              class="button filtrering sally"
+              type="button"
+              data-filter=".sally"
+            >
+              [Show Syro_Bisses work]
+            </button>
+            <button
+              class="button filtrering"
+              type="button"
+              data-filter=".emily"
+            >
+              [Show Grill_Tattoos work]
+            </button>
+            <button
+              class="button filtrering"
+              type="button"
+              data-filter=".tania"
+            >
+              [Show It's_Spicytattoos work]
+            </button>
+            <button
+              class="button filtrering all"
+              type="button"
+              data-filter=".all"
+            >
+              [Show all]
+            </button>
+          </fieldset>
+        </form>
+
+        <!----- sally ----->
+        <article class="team_article_sally mix all sally" data-name="sally">
+          <section class="team_section3_filtrering">
+            <img
+              src="/img/web_img/teams_content/sally/Sally_img_face.png"
+              alt="Tatovøren Sally"
+            />
+            <div class="team_section3_div1_filtrering">
+              <h3>Syro_Bisse // Sally</h3>
+              <p>
+                Syro Bisse's arrogant style is the definition of youth. Her
+                style reflects her raw image of Copenhagen and she shows this
+                especially in her unique shadow work.
+              </p>
+            </div>
+
+            <div class="team_section3_div2_filtrering">
+              <div class="team_section3_div2_div1_filtrering">
+                <ul>
+                  <li>
+                    “I had an awesome time with Sally, she is so nice and very
+                    talented” - Emma (customer)
+                  </li>
+                  <li class="team_section3_div2_div1_filtrering_li2">
+                    “I know it will be a good experience when I have an
+                    appointment with Grill, she just knows what she's doing” -
+                    Johann (customer)
+                  </li>
+                </ul>
+                <a class="button" href="404.html">[BOOK]</a>
+              </div>
+            </div>
+
+            <div class="team_section3_div3_filtrering">
+              <div class="team_section3_div4_filtrering">
+                <h4>Previous work</h4>
+                <div class="team_section3_div5_filtrering_pil">
+                  <button id="carousel_back_button_sally"><</button>
+                  <button id="carousel_forward_button_sally">></button>
+                </div>
+              </div>
+              <div class="slider_wrapper" id="carousel-sally">
+                <!-- carousel.js indsaetter billedern -->
+              </div>
+              <p class="team_section3_filtrering_p_links">
+                See more of her work on Instagram:
+                <a
+                  class="links_scroll"
+                  href="https://www.instagram.com/studio_n.a.a.l/"
+                  target="blank"
+                  >@studio_naal</a
+                >
+                and
+                <a
+                  class="links_scroll"
+                  href="https://www.instagram.com/syro_bisse/"
+                  target="blank"
+                  >@syro_bisse</a
+                >
+              </p>
+            </div>
+          </section>
+        </article>
+
+        <!----- emily ----->
+        <article class="team_article_emily mix all emily" data-name="emily">
+          <section class="team_section3_filtrering">
+            <img
+              src="/img/web_img/teams_content/emily/Emily_img_face.png"
+              alt="Tatovøren Emily"
+            />
+            <div class="team_section3_div1_filtrering">
+              <h3>Grill_Tattoo // Emily</h3>
+              <p>
+                Grill Tattoo style is defined through fine thin lines and
+                beautiful silhouettes. Her style shows her calm personality and
+                warm mind.
+              </p>
+            </div>
+
+            <div class="team_section3_div2_filtrering">
+              <div class="team_section3_div2_div1_filtrering">
+                <ul>
+                  <li>
+                    “I know that i can always trust Emily, she is so precise” -
+                    Nina (customer)
+                  </li>
+                  <li class="team_section3_div2_div1_filtrering_li2">
+                    “I know it will be a good experience when I have an
+                    appointment with Grill, she just knows what she's doing” -
+                    Johann (customer)
+                  </li>
+                </ul>
+                <a class="button" href="404.html">[BOOK]</a>
+              </div>
+            </div>
+
+            <div class="team_section3_div3_filtrering">
+              <div class="team_section3_div4_filtrering">
+                <h4>Previous work</h4>
+                <div class="team_section3_div5_filtrering_pil">
+                  <button id="carousel_back_button_emily"><</button>
+                  <button id="carousel_forward_button_emily">></button>
+                </div>
+              </div>
+              <div class="slider_wrapper" id="carousel-emily">
+                <!-- carousel.js indsaetter billedern -->
+              </div>
+              <p class="team_section3_filtrering_p_links">
+                See more of her work on Instagram:
+                <a
+                  class="links_scroll"
+                  href="https://www.instagram.com/studio_n.a.a.l/"
+                  target="blank"
+                  >@studio_naal</a
+                >
+                and
+                <a
+                  class="links_scroll"
+                  href="https://www.instagram.com/grill__tattoo/"
+                  target="blank"
+                  >@grill_tattoo</a
+                >
+              </p>
+            </div>
+          </section>
+        </article>
+
+        <!----- tania ----->
+        <article class="team_article_tania mix all tania" data-name="tania">
+          <section class="team_section3_filtrering">
+            <img
+              src="/img/web_img/teams_content/tania/Tania_img_face.png"
+              alt="Tatovøren Tania"
+            />
+            <div class="team_section3_div1_filtrering">
+              <h3>It’s_Spicytattoos // Tania</h3>
+              <p>
+                Spicy is particularly good at fine line and dot work. Her style
+                is very inspired by y2k and tribal illustrations.
+              </p>
+            </div>
+
+            <div class="team_section3_div2_filtrering">
+              <div class="team_section3_div2_div1_filtrering">
+                <ul>
+                  <li>
+                    “Spicy made freehand on me and it is something like the most
+                    beautiful thing I have had in a long time” - Magnus
+                    (customer)
+                  </li>
+                  <li class="team_section3_div2_div1_filtrering_li2">
+                    “I always have fun when I have an appointment with Spicy.
+                    There is always room for laughter.” - Marie (customer)
+                  </li>
+                </ul>
+                <a class="button" href="404.html">[BOOK]</a>
+              </div>
+            </div>
+
+            <div class="team_section3_div3_filtrering">
+              <div class="team_section3_div4_filtrering">
+                <h4>Previous work</h4>
+                <div class="team_section3_div5_filtrering_pil">
+                  <button id="carousel_back_button_tania"><</button>
+                  <button id="carousel_forward_button_tania">></button>
+                </div>
+              </div>
+              <div class="slider_wrapper" id="carousel-tania">
+                <!-- carousel.js indsaetter billedern -->
+              </div>
+              <p class="team_section3_filtrering_p_links">
+                See more of her work on Instagram:
+                <a
+                  class="links_scroll"
+                  href="https://www.instagram.com/studio_n.a.a.l/"
+                  target="blank"
+                  >@studio_naal</a
+                >
+                and
+                <a
+                  class="links_scroll"
+                  href="https://www.instagram.com/its_spicytattoos/"
+                  target="blank"
+                  >@it’s_spicytattoos</a
+                >
+              </p>
+            </div>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer_allaround">
+      <article class="footer_article_around">
+        <section class="footer_section1_indhold">
+          <section class="footer_section1_inner">
+            <!-- links til sider -->
+            <div class="footer_div_links">
+              <ul>
+                <li>
+                  <a class="footer_a_links_sider" href="get_in_touch.html"
+                    >Get in touch</a
+                  >
+                </li>
+                <li>
+                  <a class="footer_a_links_sider" href="#">Trade Conditions</a>
+                </li>
+                <li>
+                  <a class="footer_a_links_sider" href="#"
+                    >Cookie and Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- information på naal -->
+            <div class="footer_div_information">
+              <ul>
+                <li>
+                  <address>
+                    <a
+                      class="footer_links_menupunkter"
+                      href="https://www.google.dk/maps/place/Jagtvej+74,+2200+K%C3%B8benhavn/@55.6963553,12.5492144,17z/data=!3m1!4b1!4m5!3m4!1s0x4652525338cfe681:0xd3892f79db6d5699!8m2!3d55.6963553!4d12.5514031"
+                      target="blank"
+                      >Jagtvej 74, 2200 KBH N, Denmark</a
+                    >
+                  </address>
+                </li>
+                <li>
+                  <a
+                    class="footer_links_menupunkter"
+                    href="mailto:studionaaltattoo@gmail.com"
+                    >studionaaltattoo@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="footer_links_menupunkter"
+                    href="https://www.instagram.com/studio_n.a.a.l/"
+                    >IG: @studio_n.a.a.l</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+
+        <section class="footer_section2_tom_boks"></section>
+      </article>
+    </footer>
+  </body>
+</html>
